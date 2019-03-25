@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coupon-api/coupon-api.iml" filepath="$PROJECT_DIR$/coupon-api/coupon-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-bot/coupon-bot.iml" filepath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" />
       <module fileurl="file://$PROJECT_DIR$/coupon-common/coupon-common.iml" filepath="$PROJECT_DIR$/coupon-common/coupon-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/coupon-dal/coupon-dal.iml" filepath="$PROJECT_DIR$/coupon-dal/coupon-dal.iml" />
       <module fileurl="file://$PROJECT_DIR$/coupon-job/coupon-job.iml" filepath="$PROJECT_DIR$/coupon-job/coupon-job.iml" />

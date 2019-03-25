@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+
     <groupId>com.tcl.marketing.coupon</groupId>
     <artifactId>marketing-coupon</artifactId>
     <packaging>pom</packaging>
@@ -15,16 +21,88 @@
         <module>coupon-common</module>
         <module>coupon-dal</module>
         <module>coupon-job</module>
+        <module>coupon-bot</module>
     </modules>
 
     <properties>
-
+        <java.version>1.8</java.version>
+        <lombok.version>1.16.18</lombok.version>
+        <guava.version>18.0</guava.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
 
+            <!--子模块依赖-->
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-bot</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-job</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tcl.marketing.coupon</groupId>
+                <artifactId>coupon-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <optional>true</optional>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+            <!---->
+
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
 
 </project>

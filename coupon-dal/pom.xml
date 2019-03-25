@@ -11,5 +11,11 @@
 
     <artifactId>coupon-dal</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.tcl.marketing.coupon</groupId>
+            <artifactId>coupon-common</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
