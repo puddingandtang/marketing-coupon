@@ -11,6 +11,9 @@ import java.util.Date;
  * @Date: Created in 16:19 2019/3/25
  * @Modified By:
  * @Version :
+ * <p>
+ * <p>
+ * 券模板规则
  */
 @Data
 public class CouponTemplateRuleDO implements Serializable {

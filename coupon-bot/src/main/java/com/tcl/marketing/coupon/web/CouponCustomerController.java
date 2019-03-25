@@ -1,5 +1,9 @@
 package com.tcl.marketing.coupon.web;
 
+import com.tcl.marketing.coupon.common.coupon.filter.AvailableCouponHandler;
+
+import javax.annotation.Resource;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -8,6 +12,9 @@ package com.tcl.marketing.coupon.web;
  * @Version :
  */
 public class CouponCustomerController {
+
+    @Resource
+    AvailableCouponHandler availableCouponHandler;
 
     // TODO 用户券赠送
 
