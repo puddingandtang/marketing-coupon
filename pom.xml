@@ -28,6 +28,10 @@
         <java.version>1.8</java.version>
         <lombok.version>1.16.18</lombok.version>
         <guava.version>18.0</guava.version>
+        <spring.version>4.3.10.RELEASE</spring.version>
+        <fastjson.version>1.2.28</fastjson.version>
+        <logback.version>1.2.2</logback.version>
+        <log4j.api.version>1.2.17</log4j.api.version>
     </properties>
 
     <dependencyManagement>
@@ -85,7 +89,40 @@
                 <version>${guava.version}</version>
             </dependency>
 
-            <!---->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- log -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.api.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

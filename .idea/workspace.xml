@@ -2,26 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponCustomerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponQueryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponTemplateQueryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceResultAop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/config/TraceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/BaseCoupon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/DiscountCoupon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/ExperienceCoupon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/FaceCoupon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponTypeEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/BizException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/BssRuntimeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorCodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ParamCheckException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/RpcResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateDO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateRuleDO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template_rule.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-api/coupon-api.iml" afterPath="$PROJECT_DIR$/coupon-api/coupon-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" afterPath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-bot/pom.xml" afterPath="$PROJECT_DIR$/coupon-bot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-common/coupon-common.iml" afterPath="$PROJECT_DIR$/coupon-common/coupon-common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-common/pom.xml" afterPath="$PROJECT_DIR$/coupon-common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-dal/coupon-dal.iml" afterPath="$PROJECT_DIR$/coupon-dal/coupon-dal.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-dal/pom.xml" afterPath="$PROJECT_DIR$/coupon-dal/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-job/coupon-job.iml" afterPath="$PROJECT_DIR$/coupon-job/coupon-job.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-job/pom.xml" afterPath="$PROJECT_DIR$/coupon-job/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-service/coupon-service.iml" afterPath="$PROJECT_DIR$/coupon-service/coupon-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-service/pom.xml" afterPath="$PROJECT_DIR$/coupon-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-coupon.iml" afterPath="$PROJECT_DIR$/marketing-coupon.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="marketing-coupon.iws" />
@@ -45,49 +61,25 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="marketing-coupon" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CouponBotApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -108,15 +100,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/coupon-job/pom.xml" />
-        <option value="$PROJECT_DIR$/coupon-dal/pom.xml" />
-        <option value="$PROJECT_DIR$/coupon-common/pom.xml" />
         <option value="$PROJECT_DIR$/coupon-service/pom.xml" />
-        <option value="$PROJECT_DIR$/coupon-bot/pom.xml" />
         <option value="$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java" />
+        <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao.sql" />
+        <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template_rule.sql" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/BssRuntimeException.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceResultAop.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-common/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/config/TraceConfig.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/RpcResult.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceAspect.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/pom.xml" />
         <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/coupon-dal/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateDO.java" />
+        <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateRuleDO.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponTypeEnum.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/BaseCoupon.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/DiscountCoupon.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/FaceCoupon.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/ExperienceCoupon.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponCustomerController.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponTemplateQueryController.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponQueryController.java" />
       </list>
     </option>
   </component>
@@ -168,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,64 +198,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketing-coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -258,8 +214,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PrivateCodeSpace\marketing-coupon\coupon-dal\src\main\java\com\tcl\marketing\coupon\dal\sql" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PrivateCodeSpace\marketing-coupon\coupon-bot\src\main\resources" />
+      <recent name="E:\PrivateCodeSpace\marketing-coupon\coupon-common\src\main\java\com\tcl\marketing\coupon\common\aop" />
+      <recent name="E:\PrivateCodeSpace\marketing-coupon\coupon-common\src\main\java\com\tcl\marketing\coupon\common\exception" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CouponBotApplication">
@@ -899,37 +860,38 @@
       <updated>1553488298761</updated>
       <workItem from="1553488301218" duration="305000" />
       <workItem from="1553488622192" duration="2316000" />
+      <workItem from="1553491223871" duration="7689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2621000" />
+    <option name="totallyTimeSpent" value="10310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -953,6 +915,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -983,51 +971,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon-job/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-dal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1553,19 +1500,96 @@
               <point x="-58.0" y="-3.75" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.917887394120578" x="674.7245141678428" y="413.8418714641652" />
+          <settings layout="Hierarchic Group" zoom="0.917887394120578" x="675.0" y="414.0" />
           <SelectedNodes>
             <node>org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-test:jar:4.3.13.RELEASE</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-bot/pom.xml">
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="231">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/ParamCheckException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/BssRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/exception/BizException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="124" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1573,15 +1597,53 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/MDC.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/config/TraceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/RpcResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml">
@@ -1592,10 +1654,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/CouponBotApplication.java">
+    <entry file="file://$PROJECT_DIR$/coupon-bot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="294">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceResultAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="129" column="76" selection-start-line="129" selection-start-column="76" selection-end-line="129" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-dal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template_rule.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponTemplateRuleDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/coupon.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/BaseCoupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/FaceCoupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/ExperienceCoupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1604,9 +1789,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="231">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponTemplateQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/DiscountCoupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

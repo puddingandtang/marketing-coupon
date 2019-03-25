@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod=" 5 seconds" debug="false">
+	<jmxConfigurator/>
+
+	<contextName>marketing-coupon</contextName>
+
+	<property name="LOG_PATH" value="/logs/marketing-coupon"/>
+	<property name="LOG_LEVEL" value="INFO"/>
+
+	<!--日志文件保留最大天数-->
+	<property name="MAX_DAY" value="30"/>
+	<property name="MAX_SIZE" value="500mb"/>
+
+	<!--业务日志输出格式-->
+	<property name="SERVICE_OUTPUT_PATTERN"
+			  value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{INNER_TRACE_ID}] %-5level %logger{56} - %msg%n"/>
+
+	<!--SQL监控日志输出格式-->
+	<property name="SQL_OUTPUT_PATTERN"
+			  value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{INNER_TRACE_ID}] %-5level %logger{56} - %msg%n"/>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${SERVICE_OUTPUT_PATTERN}</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 过滤掉临界点LOG_LEVEL级别之前的日志 -->
+			<level>${LOG_LEVEL}</level>
+		</filter>
+	</appender>
+
+	<appender name="ROOT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${LOG_PATH}/root.log</File>
+		<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${LOG_PATH}/root.log.%d{yyyy-MM-dd}-%i
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+					class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>${MAX_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_DAY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${SERVICE_OUTPUT_PATTERN}</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 过滤掉临界点LOG_LEVEL级别之前的日志 -->
+			<level>${LOG_LEVEL}</level>
+		</filter>
+	</appender>
+
+	<appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${LOG_PATH}/common-error.log</File>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/common-error.log.%d{yyyy-MM-dd}-%i</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>${MAX_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_DAY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${SERVICE_OUTPUT_PATTERN}</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+
+	<appender name="LOGISTICS-CENTER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${LOG_PATH}/marketing-coupon.log</File>
+		<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${LOG_PATH}/logistics-center.log.%d{yyyy-MM-dd}-%i
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+					class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>${MAX_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_DAY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${SERVICE_OUTPUT_PATTERN}</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 过滤掉临界点LOG_LEVEL级别之前的日志 -->
+			<level>${LOG_LEVEL}</level>
+		</filter>
+	</appender>
+
+	<appender name="SQL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${LOG_PATH}/sql.log</File>
+		<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${LOG_PATH}/sql.log.%d{yyyy-MM-dd}-%i
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+					class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>${MAX_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>${MAX_DAY}</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${SQL_OUTPUT_PATTERN}</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 过滤掉临界点LOG_LEVEL级别之前的日志 -->
+			<level>DEBUG</level>
+		</filter>
+	</appender>
+
+	<logger name="druid.sql.Statement" additivity="false" level="debug">
+		<appender-ref ref="ERROR"/>
+		<appender-ref ref="SQL"/>
+	</logger>
+
+	<logger name="com.alibaba.druid.pool.DruidDataSource" additivity="false">
+		<appender-ref ref="ERROR"/>
+		<appender-ref ref="SQL"/>
+	</logger>
+
+	<logger name="com.github.pagehelper.PageHelper" additivity="false">
+		<appender-ref ref="ERROR"/>
+		<appender-ref ref="SQL"/>
+	</logger>
+
+	<logger name="com.tcl.marketing" additivity="false">
+		<appender-ref ref="ERROR"/>
+		<appender-ref ref="LOGISTICS-CENTER"/>
+	</logger>
+
+	<root level="${LOG_LEVEL}">
+		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="ERROR"/>
+		<appender-ref ref="ROOT"/>
+	</root>
+
+</configuration>
