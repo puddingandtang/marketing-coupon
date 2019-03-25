@@ -11,5 +11,28 @@
 
     <artifactId>coupon-service</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.tcl.marketing.coupon</groupId>
+            <artifactId>coupon-dal</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tcl.marketing.coupon</groupId>
+            <artifactId>coupon-api</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

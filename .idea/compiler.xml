@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="coupon-api" />
+        <module name="coupon-bot" />
         <module name="coupon-common" />
         <module name="coupon-dal" />
         <module name="coupon-job" />
@@ -30,12 +31,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="coupon-api" target="1.5" />
-      <module name="coupon-common" target="1.5" />
-      <module name="coupon-dal" target="1.5" />
-      <module name="coupon-job" target="1.5" />
-      <module name="coupon-service" target="1.5" />
-      <module name="marketing-coupon" target="1.5" />
+      <module name="coupon-api" target="1.8" />
+      <module name="coupon-bot" target="1.8" />
+      <module name="coupon-common" target="1.8" />
+      <module name="coupon-dal" target="1.8" />
+      <module name="coupon-job" target="1.8" />
+      <module name="coupon-service" target="1.8" />
+      <module name="marketing-coupon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

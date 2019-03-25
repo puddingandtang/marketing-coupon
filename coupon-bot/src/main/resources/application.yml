@@ -1,0 +1,8 @@
+application:
+  name: marketing-coupon
+server:
+  port: 8091
+  context-path: /marketing-coupon
+spring:
+  application:
+    name: ${application.name}
