@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_grant_record.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_template_rule.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_use_coupon_detail.sql" dialect="MySQL" />
