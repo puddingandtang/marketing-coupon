@@ -1,5 +1,6 @@
 package com.tcl.marketing.coupon.service.core.chain;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
 import com.tcl.marketing.coupon.service.core.node.check.CheckNode;
 
 import java.util.List;
@@ -21,14 +22,12 @@ public abstract class AbstractCheckChain implements Chain {
     protected abstract List<CheckNode> initNodes();
 
     @Override
-    public void processChain() {
-
+    public void processChain(Context context) {
         List<CheckNode> curNodes = initNodes();
 
         for (CheckNode node : curNodes) {
 
-            node.processCheck();
+            node.processCheck(context);
         }
-
     }
 }

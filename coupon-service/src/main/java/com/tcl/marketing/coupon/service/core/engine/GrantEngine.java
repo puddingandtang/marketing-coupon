@@ -23,7 +23,7 @@ import java.util.List;
  * 券发放引擎
  */
 @Slf4j
-@Component
+@Component("grantEngine")
 public class GrantEngine extends AbstractEngine {
 
     @Resource

@@ -1,5 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.input;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -7,7 +9,12 @@ package com.tcl.marketing.coupon.service.core.node.input;
  * @Modified By:
  * @Version :
  */
-public interface InputNode {
+public interface InputNode<T extends Context> {
 
-    void processInput();
+    /**
+     * 执行输入
+     *
+     * @param context
+     */
+    void processInput(T context);
 }

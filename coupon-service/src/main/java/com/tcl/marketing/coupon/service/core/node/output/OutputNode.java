@@ -1,5 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.output;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -7,7 +9,12 @@ package com.tcl.marketing.coupon.service.core.node.output;
  * @Modified By:
  * @Version :
  */
-public interface OutputNode {
+public interface OutputNode<T extends Context> {
 
-    void processOutput();
+    /**
+     * 执行输出
+     *
+     * @param context
+     */
+    void processOutput(T context);
 }

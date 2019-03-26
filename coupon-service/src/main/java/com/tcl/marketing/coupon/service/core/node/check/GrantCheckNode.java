@@ -1,6 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.check;
 
 import com.tcl.marketing.coupon.service.CouponGrantService;
+import com.tcl.marketing.coupon.service.core.model.GrantContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -15,16 +16,14 @@ import javax.annotation.Resource;
  */
 @Slf4j
 @Component
-public class GrantCheckNode implements CheckNode {
+public class GrantCheckNode implements CheckNode<GrantContext> {
 
     @Resource
     CouponGrantService couponGrantService;
 
     @Override
-    public void processCheck() {
+    public void processCheck(GrantContext context) {
 
-        couponGrantService.oneGrant();
         log.info("发放校验");
-
     }
 }

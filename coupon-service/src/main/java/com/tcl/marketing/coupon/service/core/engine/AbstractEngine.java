@@ -1,6 +1,7 @@
 package com.tcl.marketing.coupon.service.core.engine;
 
 import com.tcl.marketing.coupon.service.core.chain.Chain;
+import com.tcl.marketing.coupon.service.core.model.Context;
 
 import java.util.List;
 
@@ -21,14 +22,13 @@ public abstract class AbstractEngine implements Engine {
     protected abstract List<Chain> initChain();
 
     @Override
-    public void processEngine() {
+    public void processEngine(Context context) {
 
         List<Chain> curChains = initChain();
 
         for (Chain chain : curChains) {
 
-            chain.processChain();
+            chain.processChain(context);
         }
-
     }
 }

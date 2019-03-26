@@ -1,5 +1,7 @@
 package com.tcl.marketing.coupon.service.core.engine;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -7,7 +9,12 @@ package com.tcl.marketing.coupon.service.core.engine;
  * @Modified By:
  * @Version :
  */
-public interface Engine {
+public interface Engine<T extends Context> {
 
-    void processEngine();
+    /**
+     * 执行引擎
+     *
+     * @param context
+     */
+    void processEngine(T context);
 }

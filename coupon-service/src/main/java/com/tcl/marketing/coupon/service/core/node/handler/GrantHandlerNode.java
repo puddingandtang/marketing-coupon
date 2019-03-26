@@ -1,6 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.handler;
 
 import com.tcl.marketing.coupon.service.CouponGrantService;
+import com.tcl.marketing.coupon.service.core.model.GrantContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -15,15 +16,14 @@ import javax.annotation.Resource;
  */
 @Slf4j
 @Component
-public class GrantHandlerNode implements HandlerNode {
+public class GrantHandlerNode implements HandlerNode<GrantContext> {
 
     @Resource
     CouponGrantService couponGrantService;
 
     @Override
-    public void processHandler() {
+    public void processHandler(GrantContext context) {
         couponGrantService.oneGrant();
         log.info("发放核心");
-
     }
 }

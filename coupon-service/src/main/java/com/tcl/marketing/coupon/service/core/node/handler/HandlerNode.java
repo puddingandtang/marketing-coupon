@@ -1,5 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.handler;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -7,7 +9,12 @@ package com.tcl.marketing.coupon.service.core.node.handler;
  * @Modified By:
  * @Version :
  */
-public interface HandlerNode {
+public interface HandlerNode<T extends Context> {
 
-    void processHandler();
+    /**
+     * 执行
+     *
+     * @param context
+     */
+    void processHandler(T context);
 }

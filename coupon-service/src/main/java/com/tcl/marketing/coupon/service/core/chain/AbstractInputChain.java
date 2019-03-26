@@ -1,5 +1,6 @@
 package com.tcl.marketing.coupon.service.core.chain;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
 import com.tcl.marketing.coupon.service.core.node.input.InputNode;
 
 import java.util.List;
@@ -21,14 +22,12 @@ public abstract class AbstractInputChain implements Chain {
     protected abstract List<InputNode> initNodes();
 
     @Override
-    public void processChain() {
-
+    public void processChain(Context context) {
         List<InputNode> curNodes = initNodes();
 
         for (InputNode node : curNodes) {
 
-            node.processInput();
+            node.processInput(context);
         }
-
     }
 }

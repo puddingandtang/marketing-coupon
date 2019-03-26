@@ -1,5 +1,7 @@
 package com.tcl.marketing.coupon.service.core.node.check;
 
+import com.tcl.marketing.coupon.service.core.model.Context;
+
 /**
  * @Author : chenglong.tang
  * @Description:
@@ -7,7 +9,12 @@ package com.tcl.marketing.coupon.service.core.node.check;
  * @Modified By:
  * @Version :
  */
-public interface CheckNode {
+public interface CheckNode<T extends Context> {
 
-    void processCheck();
+    /**
+     * 执行校验
+     *
+     * @param context
+     */
+    void processCheck(T context);
 }
