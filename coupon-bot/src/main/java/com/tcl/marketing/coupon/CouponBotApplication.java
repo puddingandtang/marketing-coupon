@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Modified By:
  * @Version :
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.tcl.marketing.coupon"})
 public class CouponBotApplication {
 
     /**
