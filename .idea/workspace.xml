@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponBestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponBestController.java" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponBestController.java" />
     </list>
     <ignored path="marketing-coupon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="CouponBestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponBestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="707">
+              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1207,7 +1207,7 @@
       <workItem from="1553491223871" duration="17893000" />
       <workItem from="1553522515150" duration="54000" />
       <workItem from="1553524402561" duration="25711000" />
-      <workItem from="1553589612547" duration="7096000" />
+      <workItem from="1553589612547" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="【初版】：1.定义券类型">
       <created>1553504072691</created>
@@ -1265,11 +1265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553611473101</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="【初版】：&#10; 1.优惠券最优推荐。">
+      <created>1553613029353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553613029353</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53375000" />
+    <option name="totallyTimeSpent" value="53607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1316,7 +1323,8 @@
     <MESSAGE value="【初版】：&#10; 1.定义发放记录表。" />
     <MESSAGE value="【初版】：&#10; 1.添加流程引擎。" />
     <MESSAGE value="【初版】：&#10; 1.优惠券发放逻辑整理。" />
-    <option name="LAST_COMMIT_MESSAGE" value="【初版】：&#10; 1.优惠券发放逻辑整理。" />
+    <MESSAGE value="【初版】：&#10; 1.优惠券最优推荐。" />
+    <option name="LAST_COMMIT_MESSAGE" value="【初版】：&#10; 1.优惠券最优推荐。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1774,8 +1782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponBestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="707">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
