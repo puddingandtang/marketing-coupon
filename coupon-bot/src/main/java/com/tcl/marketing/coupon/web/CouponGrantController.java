@@ -5,7 +5,9 @@ import com.tcl.marketing.coupon.common.model.GrantCouponResult;
 import com.tcl.marketing.coupon.common.model.RpcResult;
 import com.tcl.marketing.coupon.service.core.engine.Engine;
 import com.tcl.marketing.coupon.service.core.model.GrantContext;
+import com.tcl.marketing.coupon.web.request.CouponGrantRecordRequest;
 import com.tcl.marketing.coupon.web.request.CouponGrantRequest;
+import com.tcl.marketing.coupon.web.response.CouponGrantRecordResponse;
 import com.tcl.marketing.coupon.web.response.CouponGrantResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -40,6 +42,9 @@ public class CouponGrantController {
      * 2.发放券的数据构建查询券模板信息需要缓存
      * 3.请求需要保证幂等
      * 4.库存不足该如何处理，是有什么发什么，还是说全部都不发
+     * 5.接口调用超时，需要提供一个结果查询接口（不建议在oneGrant接口中处理这个操作，职能简单点）
+     * <p>
+     * 当然优惠券一定有批量发放的接口，需要注意的内存，线程等资源的消耗。
      * <p>
      * 涉及表：
      * marketing_coupon_grant_record ：发放记录
@@ -74,4 +79,15 @@ public class CouponGrantController {
 
         return new RpcResult(response);
     }
+
+    @ServiceResultAop
+    @PostMapping(value = "/queryResult")
+    public RpcResult<CouponGrantRecordResponse> queryResult(@RequestBody CouponGrantRecordRequest request) {
+
+        // 这个为了发放提供的一个查询能力，因为系统之间存在网络抖动的原因，通过这个接口告知发放的最终结果
+        // TODO 通过outTraceNo，grantBizType查询marketing_coupon_grant_record ，marketing_coupon_grant_record_detail
+
+        return new RpcResult(null);
+    }
+
 }
