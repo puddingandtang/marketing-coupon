@@ -21,4 +21,6 @@ public class ErrorCodes {
 
     public static final ErrorCode GROOVY_COMMON_ERROR = new ErrorCode(210_000, "{0}");
 
+    public static final ErrorCode BASE_CHECK_COMMON_ERROR = new ErrorCode(220_000, "{0}");
+
 }

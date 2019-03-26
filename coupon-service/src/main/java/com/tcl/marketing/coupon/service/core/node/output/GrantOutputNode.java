@@ -23,6 +23,10 @@ public class GrantOutputNode implements OutputNode<GrantContext> {
 
     @Override
     public void processOutput(GrantContext context) {
-        log.info("发放输出");
+
+        // TODO 封装发券信息
+
+        // TODO 这里可以异步做点事情，例如计算券的到期策略；还可以进行埋点
+
     }
 }

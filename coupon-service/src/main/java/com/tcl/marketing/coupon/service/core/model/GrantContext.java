@@ -1,8 +1,12 @@
 package com.tcl.marketing.coupon.service.core.model;
 
+import com.tcl.marketing.coupon.common.model.GrantCoupon;
+import com.tcl.marketing.coupon.common.model.GrantCouponResult;
+import com.tcl.marketing.coupon.common.model.GrantOutContent;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @Author : chenglong.tang
@@ -18,8 +22,16 @@ public class GrantContext extends Context implements Serializable {
 
     private Integer userType;
 
-    // todo 发放成功券
+    private String outTraceNo;
 
-    // todo 发放失败券，同时要记录失败原因
+    private GrantOutContent outContent;
+
+    private Integer grantBizType;
+
+    private Integer grantSource;
+
+    private List<GrantCoupon> coupons;
+
+    private List<GrantCouponResult> couponResults;
 
 }

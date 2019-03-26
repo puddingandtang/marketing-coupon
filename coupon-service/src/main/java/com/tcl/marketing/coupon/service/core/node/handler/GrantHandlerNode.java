@@ -23,7 +23,13 @@ public class GrantHandlerNode implements HandlerNode<GrantContext> {
 
     @Override
     public void processHandler(GrantContext context) {
-        couponGrantService.oneGrant();
-        log.info("发放核心");
+
+        // TODO 根据发放的券，预先生成好券编号，可以采用基于zk的雪花算法,这里进行实际库存的校验，通过Redis的原子操作（DB持久化通过定时任务进行同步）
+        // TODO 如果接下来的步骤失败需要回滚实际发放库存，避免数据异常
+
+        // TODO 将券数据持久化到 用户券表，发放记录明细表；更新发放记录表状态 一个事务里面
+
+        // TODO 假设上一步失败，则更新发放记录表状态,并抛出异常
+
     }
 }

@@ -2,6 +2,7 @@ package com.tcl.marketing.coupon.service.core.engine;
 
 import com.tcl.marketing.coupon.service.core.chain.Chain;
 import com.tcl.marketing.coupon.service.core.model.Context;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
  * @Modified By:
  * @Version :
  */
+@Slf4j
 public abstract class AbstractEngine implements Engine {
 
     /**
@@ -28,7 +30,11 @@ public abstract class AbstractEngine implements Engine {
 
         for (Chain chain : curChains) {
 
+            log.info("开始执行管道[{}]", chain);
+
             chain.processChain(context);
+
+            log.info("完成执行管道[{}]", chain);
         }
     }
 }

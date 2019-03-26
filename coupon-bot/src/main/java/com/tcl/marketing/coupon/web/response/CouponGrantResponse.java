@@ -1,8 +1,10 @@
 package com.tcl.marketing.coupon.web.response;
 
+import com.tcl.marketing.coupon.common.model.GrantCouponResult;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @Author : chenglong.tang
@@ -12,5 +14,11 @@ import java.io.Serializable;
  * @Version :
  */
 @Data
-public class CouponGrantResponse implements Serializable{
+public class CouponGrantResponse implements Serializable {
+
+    private Long userNo;
+
+    private Integer userType;
+
+    private List<GrantCouponResult> coupons;
 }

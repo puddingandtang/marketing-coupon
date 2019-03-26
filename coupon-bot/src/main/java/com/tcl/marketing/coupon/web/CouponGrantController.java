@@ -1,9 +1,9 @@
 package com.tcl.marketing.coupon.web;
 
 import com.tcl.marketing.coupon.common.aop.ServiceResultAop;
+import com.tcl.marketing.coupon.common.model.GrantCouponResult;
 import com.tcl.marketing.coupon.common.model.RpcResult;
 import com.tcl.marketing.coupon.service.core.engine.Engine;
-import com.tcl.marketing.coupon.service.core.model.CouponQueryContext;
 import com.tcl.marketing.coupon.service.core.model.GrantContext;
 import com.tcl.marketing.coupon.web.request.CouponGrantRequest;
 import com.tcl.marketing.coupon.web.response.CouponGrantResponse;
@@ -11,6 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @Author : chenglong.tang
@@ -38,6 +39,7 @@ public class CouponGrantController {
      * 1.发放数量须将进行限制
      * 2.发放券的数据构建查询券模板信息需要缓存
      * 3.请求需要保证幂等
+     * 4.库存不足该如何处理，是有什么发什么，还是说全部都不发
      * <p>
      * 涉及表：
      * marketing_coupon_grant_record ：发放记录
@@ -49,15 +51,26 @@ public class CouponGrantController {
     @Resource
     Engine<GrantContext> grantEngine;
 
-    @Resource
-    Engine<CouponQueryContext> bestCouponEngine;
-
     @ServiceResultAop
     @PostMapping(value = "/one")
     public RpcResult<CouponGrantResponse> oneGrant(@RequestBody CouponGrantRequest request) {
 
-        grantEngine.processEngine(new GrantContext());
+        GrantContext grantContext = new GrantContext();
+        grantContext.setUserNo(request.getUserNo());
+        grantContext.setUserType(request.getUserType());
+        grantContext.setOutTraceNo(request.getOutTraceNo());
+        grantContext.setOutContent(request.getOutContent());
+        grantContext.setGrantBizType(request.getGrantBizType());
+        grantContext.setGrantSource(request.getGrantSource());
+        grantContext.setCoupons(request.getCoupons());
 
-        return new RpcResult(null);
+        grantEngine.processEngine(grantContext);
+
+        CouponGrantResponse response = new CouponGrantResponse();
+        response.setUserNo(request.getUserNo());
+        response.setUserType(request.getUserType());
+        response.setCoupons(grantContext.getCouponResults());
+
+        return new RpcResult(response);
     }
 }

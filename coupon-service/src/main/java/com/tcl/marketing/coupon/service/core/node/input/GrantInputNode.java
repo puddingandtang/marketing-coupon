@@ -23,6 +23,7 @@ public class GrantInputNode implements InputNode<GrantContext> {
 
     @Override
     public void processInput(GrantContext context) {
-        log.info("发放输入");
+
+        // TODO 暂时没想到这里要干嘛，因为写了个Output，就写了一个Input
     }
 }

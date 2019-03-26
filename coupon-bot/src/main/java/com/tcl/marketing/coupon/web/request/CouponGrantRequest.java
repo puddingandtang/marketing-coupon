@@ -1,7 +1,7 @@
 package com.tcl.marketing.coupon.web.request;
 
-import com.tcl.marketing.coupon.web.model.GrantCoupon;
-import com.tcl.marketing.coupon.web.model.GrantOutContent;
+import com.tcl.marketing.coupon.common.model.GrantCoupon;
+import com.tcl.marketing.coupon.common.model.GrantOutContent;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -28,6 +28,12 @@ public class CouponGrantRequest implements Serializable {
     private Integer grantBizType;
 
     private Integer grantSource;
+
+    /**
+     * true:券自身有库存，有什么发什么，没有库存的就不发
+     * false：只要一个没有库存，就不发
+     */
+    private Boolean canGrant;
 
     private List<GrantCoupon> coupons;
 

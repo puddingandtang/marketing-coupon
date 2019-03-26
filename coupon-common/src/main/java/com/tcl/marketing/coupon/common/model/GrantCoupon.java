@@ -1,4 +1,4 @@
-package com.tcl.marketing.coupon.web.model;
+package com.tcl.marketing.coupon.common.model;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * @Author : chenglong.tang
  * @Description:
- * @Date: Created in 0:08 2019/3/26
+ * @Date: Created in 15:16 2019/3/26
  * @Modified By:
  * @Version :
  */
@@ -25,3 +25,4 @@ public class GrantCoupon implements Serializable {
     private Integer couponNum;
 
 }
+

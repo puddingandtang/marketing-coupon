@@ -43,6 +43,8 @@ public class GrantEngine extends AbstractEngine {
 
         List<Chain> chains = Lists.newArrayList(grantInputChain, grantCheckChain, grantHandlerChain, grantOutputChain);
 
+        log.info("发放引擎链路:[{}]", chains);
+
         return chains;
     }
 

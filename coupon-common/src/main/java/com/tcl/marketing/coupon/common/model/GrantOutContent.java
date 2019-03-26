@@ -1,4 +1,4 @@
-package com.tcl.marketing.coupon.web.model;
+package com.tcl.marketing.coupon.common.model;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * @Author : chenglong.tang
  * @Description:
- * @Date: Created in 23:59 2019/3/25
+ * @Date: Created in 15:16 2019/3/26
  * @Modified By:
  * @Version :
  */
