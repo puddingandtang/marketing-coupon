@@ -64,6 +64,7 @@ public class CouponGrantController {
         grantContext.setGrantSource(request.getGrantSource());
         grantContext.setCoupons(request.getCoupons());
 
+        // 通过中断停止引擎执行，其实也可以构建一个中断信号来执行
         grantEngine.processEngine(grantContext);
 
         CouponGrantResponse response = new CouponGrantResponse();
