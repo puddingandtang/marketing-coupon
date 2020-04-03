@@ -16,6 +16,20 @@ import javax.annotation.Resource;
 @CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST})
 public class CouponResourceController {
 
+
+    /**
+     * 券模版资源模型设计：
+     * 券模版资源分为3类资源：
+     * 1.
+     *
+     */
+
+
+
+
+
+
+
     @Resource
     McCouponResourceRuleDAO mcCouponResourceRuleDAO;
 
@@ -27,14 +41,6 @@ public class CouponResourceController {
 
         return new RpcResult(addTotal);
     }
-
-
-
-
-
-
-
-
 
 
 

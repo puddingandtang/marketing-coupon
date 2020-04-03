@@ -1,112 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="【初版】：忘记了，先提交">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/cache/AbstractLocalCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/cache/LocalCacheException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/cache/NullValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/common/TraceClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/AreaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/CityInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/AreaCouponRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/TimeCouponRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/type/LimitTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/test/java/com/tcl/marketing/coupon/common/test/CouponEntryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/config/McCouponDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceBizDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceRuleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceTerminalDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_biz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_rule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_terminal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/grant/CouponGrantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/CouponResourceOpsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/CouponResourceQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/component/CouponResourceCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/user/UserCouponPackageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/user/impl/UserCouponPackageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/CouponRuleTest.java" afterDir="false" />
+    <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="【初版】：券模版">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResource券模版资源.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/coupon-bot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/request/CouponGrantRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/request/CouponGrantRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/response/CouponGrantResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/response/CouponGrantResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-common/coupon-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/coupon-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/aop/ServiceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/config/TraceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/BaseCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/BaseCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/DiscountCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/DiscountCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/ExperienceCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/ExperienceCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/FaceCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/FaceCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/calculate/AbstractCouponCalculateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/calculate/AbstractCouponCalculateHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/filter/AbstractCouponFilterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/filter/AbstractCouponFilterHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/filter/AvailableCouponHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/filter/AvailableCouponHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/filter/CouponFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/filter/CouponFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/filter/CouponRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/filter/CouponRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/rule/BaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/BaseRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/rule/CityCouponRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/CityCouponRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/rule/MonthDayCouponRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/rule/TimeBucketCouponRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/rule/WeekCouponRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponKindEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/type/CouponKindEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponRuleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/type/CouponRuleEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/coupon/type/CouponTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/type/CouponTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/GrantCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/GrantCouponResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantCouponResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/GrantOutContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantOutContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-dal/coupon-dal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/coupon-dal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceBizDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceBizDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceRuleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceRuleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceTerinalDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceTerminalDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_grant_record.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_grant_record.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_grant_record_detail.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_grant_record_detail.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_resource.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_resource_biz.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_biz.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_resource_rule.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_rule.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_coupon_resource_terminal.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_terminal.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_use_coupon_detail.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_use_coupon_detail.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/sql/marketing_user_coupon_package.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_user_coupon_package.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_biz.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource_biz.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_rule.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource_rule.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_terminal.sql" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource_terminal.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-job/coupon-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-job/coupon-job.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coupon-service/coupon-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/coupon-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/CouponGrantService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/component/CouponGrantIdempotent.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/grant/component/CouponGrantIdempotent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/model/GrantContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/model/GrantContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/check/GrantCheckNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/check/GrantCheckNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/handler/GrantHandlerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/handler/GrantHandlerNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/input/GrantInputNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/input/GrantInputNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/output/GrantOutputNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/output/GrantOutputNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/impl/CouponGrantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/grant/impl/CouponGrantServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/CouponResourceOpsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/CouponResourceQueryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceAssemblyBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceAssemblyBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceBizBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceBizBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceRuleBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceRuleBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceTerminalBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceTerminalBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/bo/CouponResourceTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/bo/CouponResourceTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/impl/CouponResourceOpsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/impl/CouponResourceOpsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/resource/impl/CouponResourceQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/resource/impl/CouponResourceQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="marketing-coupon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -151,103 +62,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/CityCouponRule.java">
+        <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantCoupon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantCouponResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantOutContent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResource券模版资源.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="580">
+                <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/TimeBucket.java">
+        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/BaseRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/RpcResult.java">
+        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/BaseCoupon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/TimeCouponRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/type/CouponRuleEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/AreaCouponRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/AreaInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -279,14 +127,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev_coupon_模版分支" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceDAO.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource.xml" />
         <option value="$PROJECT_DIR$/coupon-bot/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/config/McCouponDataSourceConfig.java" />
@@ -329,7 +176,6 @@
         <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceRuleDAO.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceRuleDO.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_rule.xml" />
-        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java" />
         <option value="$PROJECT_DIR$/coupon-common/src/test/java/com/tcl/marketing/coupon/common/test/CouponEntryTest.java" />
         <option value="$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/CouponRuleTest.java" />
         <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/CityCouponRule.java" />
@@ -337,6 +183,8 @@
         <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/TimeCouponRule.java" />
         <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/AreaInfo.java" />
         <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/AreaCouponRule.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java" />
+        <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResource券模版资源.md" />
       </list>
     </option>
   </component>
@@ -382,6 +230,11 @@
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
@@ -499,89 +352,43 @@
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="grant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketing-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketing-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="coupon-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -618,6 +425,7 @@
       <recent name="com.tcl.marketing.coupon.common.coupon.type" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource" />
       <recent name="$PROJECT_DIR$/coupon-dal/src/main/resources" />
       <recent name="E:\PrivateCodeSpace\marketing-coupon\coupon-dal\src\main\java\com\tcl\marketing\coupon\dal\sql" />
     </key>
@@ -634,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CouponRuleTest.buildCityRule">
+  <component name="RunManager" selected="Spring Boot.CouponBotApplication">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -934,13 +742,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CouponEntryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tcl.marketing.coupon.common.test.CouponEntryTest" />
-      <module name="coupon-common" />
+    <configuration name="GrantOutContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcl.marketing.coupon.web.model.GrantOutContent" />
+      <module name="coupon-bot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tcl.marketing.coupon.common.test.*" />
+          <option name="PATTERN" value="com.tcl.marketing.coupon.web.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1147,9 +955,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.marketing.coupon.CouponBotApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1183,18 +988,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.CouponBotApplication" />
-      <item itemvalue="Application.CouponEntryTest" />
       <item itemvalue="JUnit.CouponEntryTest.buildFaceCoupon" />
       <item itemvalue="JUnit.CouponEntryTest.buildCityRule" />
       <item itemvalue="JUnit.CouponRuleTest.buildCityRule" />
+      <item itemvalue="Application.GrantOutContent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CouponBotApplication" />
+        <item itemvalue="Application.GrantOutContent" />
         <item itemvalue="JUnit.CouponRuleTest.buildCityRule" />
         <item itemvalue="Spring Boot.CouponBotApplication" />
         <item itemvalue="JUnit.CouponEntryTest.buildCityRule" />
-        <item itemvalue="JUnit.CouponEntryTest.buildFaceCoupon" />
-        <item itemvalue="Application.CouponEntryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1216,7 +1021,7 @@
       <workItem from="1553589612547" duration="7328000" />
       <workItem from="1579072511815" duration="8685000" />
       <workItem from="1579238562224" duration="508000" />
-      <workItem from="1585876329152" duration="20123000" />
+      <workItem from="1585876329152" duration="23364000" />
     </task>
     <task id="LOCAL-00001" summary="【初版】：1.定义券类型">
       <created>1553504072691</created>
@@ -1288,7 +1093,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585876396563</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="【初版】：券模版缓存构建">
+      <created>1585902503284</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585902503284</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1309,12 +1121,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82923000" />
+    <option name="totallyTimeSpent" value="86164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1440" height="842" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1364,7 +1177,8 @@
     <MESSAGE value="【初版】：&#10; 1.优惠券发放逻辑整理。" />
     <MESSAGE value="【初版】：&#10; 1.优惠券最优推荐。" />
     <MESSAGE value="【初版】：忘记了，先提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="【初版】：忘记了，先提交" />
+    <MESSAGE value="【初版】：券模版缓存构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="【初版】：券模版缓存构建" />
   </component>
   <component name="WindowStateProjectService">
     <state width="624" height="666" key="Git.Branch.Popup" />
@@ -1375,16 +1189,40 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17-sources.jar!/com/alibaba/druid/filter/stat/StatFilter.java</url>
-          <line>477</line>
+          <url>file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponGrantController.java</url>
+          <line>70</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17-sources.jar!/com/alibaba/druid/filter/stat/StatFilter.java</url>
-          <line>441</line>
+          <url>file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/engine/AbstractEngine.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/engine/AbstractEngine.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/chain/AbstractCheckChain.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/chain/AbstractCheckChain.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/engine/BestCouponEngine.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1394,16 +1232,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/core/node/output/GrantOutputNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon-service/src/main/java/com/tcl/marketing/coupon/service/biz/user/UserCouponPackageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1558,13 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/BaseCoupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1622,13 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/BaseRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_rule.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1653,7 +1467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_rule.sql">
+    <entry file="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource_rule.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="28" lean-forward="true" selection-end-line="14" selection-end-column="47" />
@@ -1671,16 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1775,13 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/TimeBucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/RpcResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1805,8 +1602,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/grant/GrantOutContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/TimeBucket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/BaseCoupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/BaseRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResource券模版资源.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="580">
+            <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

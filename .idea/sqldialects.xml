@@ -3,9 +3,9 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_grant_record.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_grant_record_detail.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_coupon_resource_rule.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_use_coupon_detail.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/marketing_user_coupon_package.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/coupon-dal/src/main/resources/sql/resource/marketing_coupon_resource_rule.sql" dialect="MySQL" />
   </component>
 </project>
