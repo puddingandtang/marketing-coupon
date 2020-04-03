@@ -1,7 +1,6 @@
 package com.tcl.marketing.coupon.web;
 
 import com.tcl.marketing.coupon.common.aop.ServiceResultAop;
-import com.tcl.marketing.coupon.common.model.GrantCouponResult;
 import com.tcl.marketing.coupon.common.model.RpcResult;
 import com.tcl.marketing.coupon.service.core.engine.Engine;
 import com.tcl.marketing.coupon.service.core.model.GrantContext;
@@ -13,7 +12,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 /**
  * @Author : chenglong.tang
@@ -24,7 +22,7 @@ import java.util.List;
  */
 @Slf4j
 @RestController
-@RequestMapping("coupon/grant")
+@RequestMapping("coupon/core/grant")
 @CrossOrigin(origins = "*", allowedHeaders = "*", methods = { RequestMethod.GET, RequestMethod.POST })
 public class CouponGrantController {
 

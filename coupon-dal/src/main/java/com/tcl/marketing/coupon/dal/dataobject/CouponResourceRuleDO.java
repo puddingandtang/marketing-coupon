@@ -1,22 +1,18 @@
 package com.tcl.marketing.coupon.dal.dataobject;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @Author : chenglong.tang
- * @Description:
- * @Date: Created in 16:19 2019/3/25
- * @Modified By:
- * @Version :
- * <p>
- * <p>
- * 券模板规则
- */
 @Data
-public class CouponTemplateRuleDO implements Serializable {
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class CouponResourceRuleDO implements Serializable {
 
     private Long id;
 

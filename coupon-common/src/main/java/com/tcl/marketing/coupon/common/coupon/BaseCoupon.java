@@ -1,5 +1,6 @@
 package com.tcl.marketing.coupon.common.coupon;
 
+import com.tcl.marketing.coupon.common.coupon.type.CouponKindEnum;
 import com.tcl.marketing.coupon.common.coupon.type.CouponTypeEnum;
 import lombok.Data;
 
@@ -16,6 +17,13 @@ import java.io.Serializable;
 public class BaseCoupon implements Serializable {
 
     /**
+     * 券种类
+     *
+     * @see CouponKindEnum
+     */
+    private Integer kind;
+
+    /**
      * 券类型
      *
      * @see CouponTypeEnum
@@ -23,12 +31,12 @@ public class BaseCoupon implements Serializable {
     private Integer type;
 
     /**
-     * 上限
+     * 金额：上限
      */
     private long maxMoney;
 
     /**
-     * 下限
+     * 金额：下限
      */
     private long minMoney;
 

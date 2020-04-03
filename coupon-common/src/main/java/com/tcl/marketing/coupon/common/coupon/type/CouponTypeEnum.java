@@ -14,30 +14,38 @@ import java.util.Arrays;
 @Getter
 public enum CouponTypeEnum {
 
-    DISCOUNT(1, "折扣券"),
+    DISCOUNT(CouponKindEnum.DEFAULT_COUPON.getCode(), 1, "折扣券"),
 
-    FACE(2, "面值券"),
+    FACE(CouponKindEnum.DEFAULT_COUPON.getCode(), 2, "面值券"),
 
-    EXPERIENCE(3, "体验券");
+    EXPERIENCE(CouponKindEnum.DEFAULT_COUPON.getCode(), 3, "体验券");
+
+    private int kind;
 
     private int code;
 
     private String desc;
 
-    CouponTypeEnum(int code, String desc) {
+    CouponTypeEnum(int kind, int code, String desc) {
+
+        this.kind = kind;
         this.code = code;
         this.desc = desc;
     }
 
+
     /**
-     * 查询
+     * 获取类型
      *
+     * @param kind
      * @param code
      * @return
      */
-    public static final CouponTypeEnum acquire(Integer code) {
+    public static final CouponTypeEnum acquire(final Integer kind, final Integer code) {
 
-        return Arrays.stream(CouponTypeEnum.values()).filter(t -> null != code && code.intValue() == t.getCode()).findFirst()
+        return Arrays.stream(CouponTypeEnum.values())
+                .filter(t1 -> null != kind && kind.intValue() == t1.getKind())
+                .filter(t2 -> null != code && code.intValue() == t2.getCode()).findFirst()
                 .orElse(null);
 
     }
