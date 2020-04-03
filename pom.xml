@@ -32,6 +32,13 @@
         <fastjson.version>1.2.28</fastjson.version>
         <logback.version>1.2.2</logback.version>
         <log4j.api.version>1.2.17</log4j.api.version>
+
+        <druid.boot.version>1.1.17</druid.boot.version>
+        <mybatis.boot.version>1.2.0</mybatis.boot.version>
+        <mysql.version>5.1.37</mysql.version>
+
+        <junit.version>4.12</junit.version>
+
     </properties>
 
     <dependencyManagement>
@@ -122,6 +129,30 @@
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.api.version}</version>
+            </dependency>
+
+            <!-- 数据库 begin-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.boot.version}</version>
+            </dependency>
+            <!-- 数据库 end-->
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
             </dependency>
 
         </dependencies>

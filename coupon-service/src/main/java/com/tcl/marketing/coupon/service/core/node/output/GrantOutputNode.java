@@ -1,6 +1,6 @@
 package com.tcl.marketing.coupon.service.core.node.output;
 
-import com.tcl.marketing.coupon.service.CouponGrantService;
+import com.tcl.marketing.coupon.service.biz.grant.CouponGrantService;
 import com.tcl.marketing.coupon.service.core.model.GrantContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
 package com.tcl.marketing.coupon.common.aop;
 
-import com.tcl.marketing.coupon.common.config.TraceConfig;
+import com.tcl.marketing.coupon.common.component.common.TraceClass;
 import com.tcl.marketing.coupon.common.exception.BizException;
 import com.tcl.marketing.coupon.common.exception.BssRuntimeException;
 import com.tcl.marketing.coupon.common.model.RpcResult;
@@ -25,7 +25,7 @@ import static com.tcl.marketing.coupon.common.exception.ErrorCodes.OTHER_EXCEPTI
 @Aspect
 @Component
 @Order(value = Ordered.HIGHEST_PRECEDENCE)
-public class ServiceAspect extends TraceConfig {
+public class ServiceAspect extends TraceClass {
 
     @Around("@annotation(ServiceResultAop)")
     public Object process(ProceedingJoinPoint joinPoint) {

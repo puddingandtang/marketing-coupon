@@ -1,11 +1,9 @@
 package com.tcl.marketing.coupon.service.core.node.check;
 
 import com.google.common.base.Joiner;
-import com.tcl.marketing.coupon.common.exception.BizException;
 import com.tcl.marketing.coupon.common.exception.ErrorCodes;
 import com.tcl.marketing.coupon.common.type.UserTypeEnum;
-import com.tcl.marketing.coupon.service.CouponGrantService;
-import com.tcl.marketing.coupon.service.component.CouponGrantIdempotent;
+import com.tcl.marketing.coupon.service.biz.grant.component.CouponGrantIdempotent;
 import com.tcl.marketing.coupon.service.core.model.GrantContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

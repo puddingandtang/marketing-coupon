@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tcl.marketing.coupon.dal.dao.McCouponResourceBizDAO">
+
+    <select id="queryByTemplateNo" resultType="java.util.List">
+        select
+        id as id,
+        resource_id as resourceId,
+        biz_resource as bizResource
+        from mc_coupon_resource_biz
+        where resource_id = #{templateNo}
+    </select>
+
+</mapper>

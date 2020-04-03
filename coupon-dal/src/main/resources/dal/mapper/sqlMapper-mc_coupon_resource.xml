@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tcl.marketing.coupon.dal.dao.McCouponResourceDAO">
+
+    <select id="queryByTemplateNo" resultType="com.tcl.marketing.coupon.dal.dataobject.CouponResourceDO">
+        select
+        id as id,
+        name as name,
+        scenes as scenes,
+        kind as kind,
+        type as type,
+        content as content,
+        effective_type as effectiveType,
+        effective_day as effectiveDay,
+        effective_begin as effectiveBegin,
+        effective_end as effectiveEnd,
+        copy_writer as copyWriter,
+        status as status
+        from mc_coupon_resource
+        where id = #{templateNo}
+    </select>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.tcl.marketing.coupon.web.request;
 
-import com.tcl.marketing.coupon.common.model.GrantCoupon;
-import com.tcl.marketing.coupon.common.model.GrantOutContent;
+import com.tcl.marketing.coupon.common.model.coupon.grant.GrantCoupon;
+import com.tcl.marketing.coupon.common.model.coupon.grant.GrantOutContent;
 import lombok.Data;
 
 import java.io.Serializable;

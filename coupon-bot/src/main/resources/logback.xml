@@ -132,11 +132,6 @@
 		<appender-ref ref="SQL"/>
 	</logger>
 
-	<logger name="com.github.pagehelper.PageHelper" additivity="false">
-		<appender-ref ref="ERROR"/>
-		<appender-ref ref="SQL"/>
-	</logger>
-
 	<logger name="com.tcl.marketing" additivity="false">
 		<appender-ref ref="ERROR"/>
 		<appender-ref ref="LOGISTICS-CENTER"/>

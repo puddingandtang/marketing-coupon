@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tcl.marketing.coupon.dal.dao.McCouponResourceRuleDAO">
+
+    <select id="queryByTemplateNo" resultType="java.util.List">
+        select
+        id as id,
+        resource_no as templateId,
+        rule_code as ruleCode,
+        rule_value as ruleValue,
+        version as version
+        from mc_coupon_resource_rule
+        where resource_no = #{templateNo}
+    </select>
+
+
+    <insert id="batchInsert" parameterType="com.tcl.marketing.coupon.dal.dataobject.CouponResourceRuleDO">
+        INSERT INTO mc_coupon_resource_rule
+        ( resource_no, rule_code, rule_value, version )
+        values
+        <foreach collection="rules" close="" open="" separator="," item="rule">
+            ( #{rule.templateId}, #{rule.ruleCode}, #{rule.ruleContent}, #{rule.version} )
+        </foreach>
+    </insert>
+
+
+</mapper>

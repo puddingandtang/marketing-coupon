@@ -6,3 +6,37 @@ server:
 spring:
   application:
     name: ${application.name}
+  ## DB数据源配置
+  datasource:
+    druid:
+      init: true
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      filters: stat,wall,slf4j,config
+      filter:
+        stat:
+          enabled: true
+          log-slow-sql: true
+          slow-sql-millis: 0
+        slf4j:
+          connection-log-enabled: false
+          statement-executable-sql-log-enable: true
+          result-set-log-enabled: false
+          statement-log-enabled: false
+          enabled: true
+        wall:
+          enabled: true
+      mc-coupon:
+        url: jdbc:mysql://localhost:3306/mc_coupon?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=true
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource

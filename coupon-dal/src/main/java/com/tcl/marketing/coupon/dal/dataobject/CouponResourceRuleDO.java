@@ -1,17 +1,11 @@
 package com.tcl.marketing.coupon.dal.dataobject;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
 public class CouponResourceRuleDO implements Serializable {
 
     private Long id;
@@ -21,6 +15,8 @@ public class CouponResourceRuleDO implements Serializable {
     private String ruleCode;
 
     private String ruleContent;
+
+    private String version;
 
     private Date createTime;
 
