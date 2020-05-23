@@ -30,4 +30,5 @@ public class CouponRuleTest {
 
         System.out.println(JSON.toJSONString(ruleDO));
     }
+
 }

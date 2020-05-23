@@ -66,6 +66,7 @@ public class ServiceAspect extends TraceClass {
 
             // 如果抛出的不是系统自定义的异常则重新构造一个未知错误异常
             bssRuntimeException = new BizException(OTHER_EXCEPTION);
+            log.error("ServiceAspect#handlerException ,处理异常", exception);
         }
 
         //组装返回接口

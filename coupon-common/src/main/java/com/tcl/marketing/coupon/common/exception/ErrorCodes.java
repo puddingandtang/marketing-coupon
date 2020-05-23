@@ -23,4 +23,11 @@ public class ErrorCodes {
 
     public static final ErrorCode BASE_CHECK_COMMON_ERROR = new ErrorCode(220_000, "{0}");
 
+
+    /** 券生命周期相关错误码*/
+    public static final ErrorCode LIFE_COUPON_BASE_ERROR = new ErrorCode(230_000, "操作券非法：{0}");
+    public static final ErrorCode LIFE_COUPON_SYSTEM_ERROR = new ErrorCode(230_001, "系统繁忙");
+    public static final ErrorCode LIFE_COUPON_NOT_EXIST = new ErrorCode(230_002, "券不存在");
+
+
 }
