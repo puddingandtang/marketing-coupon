@@ -49,6 +49,15 @@ public class CouponLifeController {
                 .userType(request.getUserType())
                 .couponNo(request.getCouponNo()).build();
 
+        /**
+         * 冻结操作：
+         * 1.需要具体失败的错误码，
+         *      例如：冻结一张已使用的券，返回的是券已使用，冻结失败
+         *      例如：冻结一张已冻结的券，返回冻结成功 或者 已冻结
+         *
+         * 针对一张券的状态流转，如果多人同时操作，乐观锁形式更新，失败。
+         *
+         */
         CouponLifeResult result = abstractCouponLife.process(context);
 
         return commonBuildResult(result);

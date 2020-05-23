@@ -1,6 +1,9 @@
 package com.tcl.marketing.coupon.service.biz.user.component.life.order;
 
+import com.google.common.base.Strings;
 import com.tcl.marketing.coupon.common.exception.*;
+import com.tcl.marketing.coupon.dal.dataobject.CouponUseDO;
+import com.tcl.marketing.coupon.dal.dataobject.UserCouponDO;
 import com.tcl.marketing.coupon.service.biz.user.component.life.CouponLifeContext;
 import com.tcl.marketing.coupon.service.biz.user.component.life.CouponLifeResult;
 import lombok.extern.slf4j.Slf4j;
@@ -22,23 +25,20 @@ public class CouponFreezeLife extends AbstractCouponLife {
 
     @Override
     protected CouponLifeResult processLifeBefore(CouponLifeContext lifeContext, CouponLifeResult lifeResult) {
-        // todo 冻结场景，券合法性校验
 
         Long couponNo = lifeContext.getCouponNo();
-        if(couponNo.intValue() == 1L){
+
+        // todo 根据用户编号，用户类型，券编号查询这张券
+        UserCouponDO couponInfoFromDb = new UserCouponDO();
+
+        if (null == couponInfoFromDb || Strings.isNullOrEmpty(couponInfoFromDb.getCouponNo())) {
 
             throw new BizException(ErrorCodes.LIFE_COUPON_NOT_EXIST, ErrorLevel.INFO);
         }
 
-        if(couponNo.intValue() == 2L){
+        Integer useStatus = couponInfoFromDb.getUseStatus();
 
-            throw new BizException(ErrorCodes.LIFE_COUPON_NOT_EXIST, ErrorLevel.ERROR);
-        }
-
-        if(couponNo.intValue() == 3L){
-
-            System.out.println(1/0);
-        }
+        // todo 判断状态是否合法
 
         return super.processLifeBefore(lifeContext, lifeResult);
     }
