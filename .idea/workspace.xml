@@ -4,10 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="【初版】：券生命周期操作代码">
-      <change afterPath="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponExpireRemindController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/thread/ThreadGroupTest.java" afterDir="false" />
+    <list default="true" id="41b235e1-7b6b-4642-8fb8-2dab59d48712" name="Default" comment="【学习】了解ThreadGroup">
+      <change afterPath="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="marketing-coupon.iws" />
@@ -67,19 +65,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="596" selection-start-line="596" selection-end-line="608" selection-end-column="9" />
+            <state relative-caret-position="73">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadFactory.java">
+        <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,20 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1234">
-              <caret line="597" column="11" selection-start-line="597" selection-start-column="11" selection-end-line="597" selection-end-column="11" />
-              <folding>
-                <element signature="e#15704#15705#0" expanded="true" />
-                <element signature="e#15770#15771#0" expanded="true" />
-                <element signature="e#21475#21476#0" expanded="true" />
-                <element signature="e#21519#21520#0" expanded="true" />
-                <element signature="e#37304#37305#0" expanded="true" />
-                <element signature="e#37347#37348#0" expanded="true" />
-                <element signature="e#44253#44254#0" expanded="true" />
-                <element signature="e#44281#44282#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="309">
+              <caret line="1235" column="57" selection-start-line="1235" selection-start-column="44" selection-end-line="1235" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -164,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/model/coupon/rule/BaseRule.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dao/McCouponResourceRuleDAO.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/java/com/tcl/marketing/coupon/dal/dataobject/CouponResourceRuleDO.java" />
         <option value="$PROJECT_DIR$/coupon-dal/src/main/resources/dal/mapper/sqlMapper-mc_coupon_resource_rule.xml" />
@@ -215,6 +205,7 @@
         <option value="$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponExpireRemindController.java" />
         <option value="$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/thread/ThreadGroupTest.java" />
         <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadFactory.java" />
+        <option value="$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadPool.java" />
       </list>
     </option>
   </component>
@@ -1099,7 +1090,7 @@
       <workItem from="1590210376783" duration="9404000" />
       <workItem from="1590220135209" duration="1176000" />
       <workItem from="1590370532501" duration="2326000" />
-      <workItem from="1590482278738" duration="8440000" />
+      <workItem from="1590482278738" duration="9244000" />
     </task>
     <task id="LOCAL-00001" summary="【初版】：1.定义券类型">
       <created>1553504072691</created>
@@ -1199,7 +1190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590220011332</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="【学习】了解ThreadGroup">
+      <created>1590568466824</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590568466824</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1235,14 +1233,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150248000" />
+    <option name="totallyTimeSpent" value="151052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.608" visible="true" weight="0.22103004" />
-      <window_info id="Structure" order="1" sideWeight="0.392" side_tool="true" visible="true" weight="0.22103004" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.608" visible="true" weight="0.13948497" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.392" side_tool="true" visible="true" weight="0.13948497" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
@@ -1296,7 +1294,8 @@
     <MESSAGE value="【初版】：券模版缓存构建" />
     <MESSAGE value="【初版】：券模版md" />
     <MESSAGE value="【初版】：券生命周期操作代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="【初版】：券生命周期操作代码" />
+    <MESSAGE value="【学习】了解ThreadGroup" />
+    <option name="LAST_COMMIT_MESSAGE" value="【学习】了解ThreadGroup" />
   </component>
   <component name="WindowStateProjectService">
     <state width="624" height="666" key="Git.Branch.Popup" />
@@ -1377,24 +1376,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/design/day1/AnnotationTaxStrategyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getTaxStrategy#0;class#AnnotationTaxStrategyFactory#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon-service/src/test/java/com/tcl/marketing/coupon/service/test/design/day1/TaxTypeAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon-bot/src/main/java/com/tcl/marketing/coupon/web/CouponResource券模版资源.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -1806,8 +1787,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="73">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="1235" column="57" selection-start-line="1235" selection-start-column="44" selection-end-line="1235" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon-common/src/main/java/com/tcl/marketing/coupon/common/component/thread/BizThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
